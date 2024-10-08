@@ -1,11 +1,11 @@
-path: /content/drive/MyDrive/screenshot_analyzer/data
+path: /content/drive/MyDrive/time_anlyzer/data
 train:
-  images: /content/drive/MyDrive/screenshot_analyzer/data/images/train
-  labels: /content/drive/MyDrive/screenshot_analyzer/data/labels/train
+  images: /content/drive/MyDrive/time_anlyzer/data/images/train
+  labels: /content/drive/MyDrive/time_anlyzer/data/labels/train
 val:
-  images: /content/drive/MyDrive/screenshot_analyzer/data/images/train
-  labels: /content/drive/MyDrive/screenshot_analyzer/data/labels/train
-nc: 19
+  images: /content/drive/MyDrive/time_anlyzer/data/images/train
+  labels: /content/drive/MyDrive/time_anlyzer/data/labels/train
+nc: 16
 names:
 - dog
 - person
@@ -22,7 +22,4 @@ names:
 - pulled pork
 - hamburger
 - cavity
-- search_box
 - time_date
-- link
-- text
